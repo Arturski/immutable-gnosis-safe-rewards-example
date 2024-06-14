@@ -1,5 +1,7 @@
 # Gnosis Safe on Immutable zkEVM
 
+## FOR EDUCATIONAL USE ONLY
+
 ## OVERVIEW
 
 This detailed guide provides instructions for developers to create a multisig Gnosis Safe on Immutable X deploy custom smart contracts using Forge and Foundry tools and link these contracts through the Safe's interface. This example demonstrates how Safe can be used as a game rewards treasury.
