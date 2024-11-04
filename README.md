@@ -2,6 +2,9 @@
 
 ## FOR EDUCATIONAL USE ONLY
 
+## IMPORTANT NOTE
+When used together with in-game pre-approved transactions, only game tokens are supported. IMX, ETH and USDC will not work in this case.
+
 ## OVERVIEW
 
 This detailed guide provides instructions for developers to create a multisig Gnosis Safe on Immutable X deploy custom smart contracts using Forge and Foundry tools and link these contracts through the Safe's interface. This example demonstrates how Safe can be used as a game rewards treasury.
@@ -50,8 +53,8 @@ This detailed guide provides instructions for developers to create a multisig Gn
 ## Enable safe module
 - Find the Gnosis Safe master contract you can do this in Blockscout.
 
-## Add Transaction Builder to your Safe via this guide
-- Enable Module using the Transaction Builder and this guide
+## Add transferFrom transaction using Transaction Builder to your Safe via this guide
+- Enable Module using the Transaction Builder, follow [this guide](https://help.safe.global/en/articles/40826-add-a-module)
 
 ## RISKS AND CONSIDERATIONS
 These contracts are implemented only as concept examples and are not audited. When following this guide you must make security and scalability considerations that fit the desired outcomes of the project under production conditions.
